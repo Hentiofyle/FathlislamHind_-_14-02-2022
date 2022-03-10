@@ -432,7 +432,7 @@ div.restaurant {
     background-color: white;
   }
   .introduction-body > button {
-    margin-top: 90px;
+   /* margin-top: 90px;*/
   }
   .introduction-body > h3 {
     font-size: 30px;
@@ -484,4 +484,20 @@ div.restaurant {
     font-weight: 500;
     font-family: "roboto", sans-serif;
   }
+}
+
+
+@media (min-width: 1620px) and (max-width: 2000px) {
+
+.introduction-body >button{
+
+margin-top: 80px;
+
+}
+
+.introduction-body{
+
+  padding: 62px;
+}
+
 }
