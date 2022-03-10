@@ -387,6 +387,7 @@ div.restaurant {
     display: -ms-flexbox;
     display: flex;
     width: 90%;
+    padding: 50px;
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
@@ -400,6 +401,7 @@ div.restaurant {
     max-width: 100%;
     margin-top: 30px;
     width: 50%;
+    padding: 43px;
   }
   .steps {
     width: 50%;
@@ -425,6 +427,7 @@ div.restaurant {
   }
   .introduction-body {
     width: 100%;
+    padding: 55px;
     padding-bottom: 10px;
     background-color: white;
   }
@@ -444,6 +447,7 @@ div.restaurant {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    padding: 75px;
   }
   .cards > h2 {
     text-align: center;
@@ -464,6 +468,7 @@ div.restaurant {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    padding: 50px;
   }
   div.restaurant {
     width: 40%;
