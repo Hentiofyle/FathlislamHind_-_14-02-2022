@@ -37,6 +37,16 @@ header {
   display: none;
 }
 
+.input {
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 0.9rem 0.9rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  outline: none;
+
+}
+
 .h1-contact {
   font-size: 2em;
   text-align: center;
@@ -83,17 +93,15 @@ legend {
   margin-bottom: 20px;
 }
 
-input {
-  height: 20px;
-  border: 1px solid gray;
-  padding: 5px;
-  border-radius: 10px;
-  margin-left: 5px;
-}
+
 
 .essay {
-  border: 1px solid gray;
-  border-radius: 10px;
+   background-color: #fff;
+  border: 1px solid #eee;
+  padding: 0.9rem 0.9rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  outline: none;
 }
 
 label {
@@ -227,7 +235,7 @@ button:hover {
   }
 
   header {
-    display: none;
+    display: block;
   }
 
   .logo-span {
