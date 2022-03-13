@@ -23,7 +23,7 @@
   </head>
 
   <body>
-    <div id="outside">
+     <div id="outside">
       <header>
         <a href="index.html"><span class="arrow">&#171;</span></a>
         <img src="images/ohmyfood.png" alt="logo oh my food" class="logo" />
@@ -36,13 +36,9 @@
 
         <form id="survey-form" action="index.html" method="post">
           <h1 class="h1-contact">Reservation</h1>
-          <p id="description">
-            <b>Note :</b> Toute réservation faite moins de 12h en avance est
-            susebtible d'être refusée.
-          </p>
 
           <fieldset>
-            <legend>Personal Information</legend>
+            <legend>Information Personnelle</legend>
 
             <div>
               <label id="Name-label" for="name">Nom</label>
@@ -51,7 +47,7 @@
                 placeholder="Your Name Here"
                 required
                 id="name"
-                name="Nom"
+                name="Nom" class="input"
               />
             </div>
 
@@ -62,18 +58,18 @@
                 placeholder="Your Email Here"
                 required
                 id="Email"
-                name="Email"
+                name="Email" class="input"
               /><br />
             </div>
 
             <div>
-              <label id="number-label" for="Phone-number">Phone Number</label>
+              <label id="number-label" for="Phone-number">Numéro de téléphone</label>
               <input
                 type="Number"
                 placeholder="Your Phone Number Here"
                 required
                 id="Phone-number"
-                name="Phone-number"
+                name="Phone-number"  class="input"
               />
             </div>
 
@@ -83,29 +79,29 @@
                 type="Number"
                 id="Number"
                 placeholder="Le nombre de personne "
-                name="Number"
+                name="Number" class="input"
               />
             </div>
 
             <div>
               <label id="date" for="dday"> Date de réservation</label>
-              <input type="date" id="dday" name="dday" />
+              <input type="date" id="dday" name="dday" class="input" />
             </div>
           </fieldset>
 
           <fieldset>
-            <legend>Information Complementaire</legend>
+            <legend>Informations Complementaires</legend>
 
-            <label for="check">Check All That Apply</label>
-            <input id="check" />
+            <label for="check">Cochez ce qui vous concerne</label>
 
             <p>
               <input type="checkbox" name="Tattoos" value="tattoos" /> Alergie
               aux arachides<br />
               <input type="checkbox" name="older" value="older" /> Alergie aux
               noix<br />
-              <input type="checkbox" name="work" value="work" /> Option Vegan<br />
-              <input type="checkbox" name="Student" value="Student" />Option
+              <input type="checkbox" name="work" value="work" />  Option Vegan<br />
+
+              <input type="checkbox" name="Student" value="Student" /> Option
               Végétarien <br />
               <input type="checkbox" name="yacht" value="yacht" /> Réservation
               dans le cadre d'une occasion spéciale <br />
@@ -119,46 +115,22 @@
                 name="message"
                 rows="4"
                 cols="35"
-                placeholder="Dites nous en plus!"
+                placeholder="Dites nous en plus!" 
               ></textarea>
             </div>
           </fieldset>
 
-          <fieldset>
-            <legend>Choix du Menu</legend>
-            <div>
-              <label for="Menu">Menu </label>
-              <input id="Menu" />
-              <select id="dropdown">
-                <option value="goût">La palette du goût</option>
-                <option value="enchanté">La note enchantée</option>
-                <option value="french">A là française</option>
-                <option value="sens">Le délice des sens</option>
-              </select>
-            </div>
-            <div>
-              <!-- <label for="Plats">Choix du service </label> 
-<select id= « dropdown»>
-<option value= « service »>Entrée-Plat-Dessert</option>
-<option value= « dessert »>Plat-Dessert</option>
-<option value= « ? »>?</option>
-<option value= « ? »>?</option>
-</select> -->
-            </div>
-          </fieldset>
+
 
           <fieldset>
             <legend>Remarque ou note spéciale</legend>
-
-            <label for="remarque"></label>
-            <input id="remarque" />
-            <p>Avez vous des informations supplémentaire à nous communiquer?</p>
+            <p>Avez vous des informations supplémentaires à nous communiquer?</p>
             <textarea
               class="essay"
               name="message"
               rows="4"
               cols="35"
-              placeholder="Write here"
+              placeholder="Dites nous en plus!"
             ></textarea>
           </fieldset>
 
