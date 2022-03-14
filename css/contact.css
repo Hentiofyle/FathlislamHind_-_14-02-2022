@@ -209,7 +209,7 @@ button:hover {
   .page {
     display: flex;
     max-width: 1450px;
-    margin-left: 50px;
+    margin-left: 150px;
   }
   body {
     background-image: none;
@@ -219,7 +219,7 @@ button:hover {
   form {
     border: none;
     border-radius: 0px;
-    width: 40%;
+    width: 50%;
     box-shadow: none;
     opacity: 1;
   }
@@ -246,7 +246,7 @@ button:hover {
     background-color: #f2f2f2;
     opacity: 0.8;
     bottom: 60px;
-    left: 250px;
+    left: 20%;
     display: block;
   }
 }
