@@ -203,7 +203,7 @@ button:hover {
   .img-contact {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 50%;
   }
 
   .page {
