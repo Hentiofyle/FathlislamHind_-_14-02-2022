@@ -118,6 +118,8 @@ div.introduction {
   font-family: "Roboto", sans-serif;
 }
 
+
+
 li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -134,7 +136,10 @@ li {
 
 li:hover {
   background-color: rgba(147, 86, 200, 0.15);
+  transition: 0.4s;
 }
+
+
 
 li > p {
   -webkit-box-align: center;
@@ -177,9 +182,12 @@ i.fa-solid {
   color: gray;
 }
 
-i.fa-solid:hover {
-  color: #9356dc;
+li:hover i.fa-solid  {
+  color: #9356DC;
 }
+
+
+
 
 /*HERO*/
 /*CARDS*/
@@ -205,6 +213,7 @@ div.restaurant {
   -webkit-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
   position: relative;
+  background-color: white;
 }
 
 .cards-body {
@@ -486,6 +495,18 @@ div.restaurant {
     font-weight: 500;
     font-family: "roboto", sans-serif;
   }
+}
+
+@media (min-width:350px) {
+
+  .footer-mentions > p{
+    margin-left: 8px;
+  }
+
+  .list-1{
+    margin-left: 32px;
+  }
+  
 }
 
 
