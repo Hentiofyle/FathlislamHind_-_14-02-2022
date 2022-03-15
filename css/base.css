@@ -82,6 +82,7 @@ div.list-1 > div > i.fa {
 .footer-mentions > p {
   padding: 0;
   margin: 1px;
+  margin-left: 10px;
 }
 
 
@@ -111,7 +112,7 @@ div.list-1 > div > i.fa {
   color: white;
   padding: 0;
   margin: 0;
-  margin-left: 20px;
+  margin-left: 32px;
 }
 .contact{
   font-family: "roboto", sans-serif;
@@ -121,6 +122,7 @@ div.list-1 > div > i.fa {
   cursor: pointer;
   margin-top: 4px;
   margin-bottom: 5px;
+  text-decoration: none;
 }
 
 div.list-1 > div > i.fa {
@@ -136,6 +138,19 @@ i.fa::before {
 /*FOOTER*/
 
 /*VERSION IPAD HOME PAGE*/
+@media (min-width:350px) {
+
+  .footer-mentions > p{
+    margin-left: 8px;
+  }
+
+  .list-1{
+    margin-left: 31px;
+  }
+  
+}
+
+
 
 @media (min-width: 400px) and (max-width: 768px) {
   body {
@@ -145,6 +160,8 @@ i.fa::before {
   html {
     max-width: 768px;
   }
+
+
 }
 
 /*VERSION TABLETTE HOME PAGE*/
@@ -233,7 +250,7 @@ i.fa::before {
 /*ANIMATION*/
 /*Hearts -Elements generaux- */
 .hearts {
-  padding: 25px;
+  margin-right: 2rem;
   position: relative;
 
   /*Hearts, Hover animation*/
@@ -301,16 +318,16 @@ i.fa::before {
   -ms-flex-pack: center;
   justify-content: center;
   overflow: hidden;
-  -webkit-animation: fadeOut 4.5s;
-  animation: fadeOut 4.5s;
+  -webkit-animation: fadeOut 3s;
+  animation: fadeOut 3s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
 
 .loader-container img {
   width: 35rem;
-  -webkit-animation: fadeOut 4.5s;
-  animation: fadeOut 4.5s;
+  -webkit-animation: fadeOut 3s;
+  animation: fadeOut 3s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
