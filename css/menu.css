@@ -3,12 +3,12 @@ header {
   position: relative;
 }
 
-.arrow {
+.arrow__icon {
   position: absolute;
-  top: 10px;
+  top: 19px;
   left: 10px;
   width: 30px;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   color: black;
 }
@@ -53,11 +53,19 @@ a:active {
 }
 
 .french-title > h1 {
-  font-size: 25px;
+  font-size: 24px;
+  margin-left: 15px;
 }
 
 .french-title > .hearts {
   margin-left: 40px;
+}
+
+.hearts{
+  margin-top: 1.5rem;
+  height: 100%;
+  width: 0;
+  
 }
 
 .service {
@@ -188,6 +196,7 @@ div.menu-bloc {
   margin-left: -20px;
   margin-right: -20px;
 }
+
 
 @media (min-width: 768px) and (max-width: 1200px) {
   .french {
