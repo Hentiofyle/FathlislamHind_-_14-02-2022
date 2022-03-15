@@ -1,4 +1,4 @@
-# FathlislamHind_-_14-02-2022
+# FathlislamHind_3_14022022
 
 
 OhMyFood is an online menu for restaurant 
@@ -47,8 +47,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://hentiofyle.github.io/FathlislamHind_3_14022022/]
 
 ## My process
 
@@ -56,7 +55,6 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Sass
 - Flexbox
 - Mobile-first workflow
 - Fontawesome for the icons
@@ -85,4 +83,4 @@ This helped me for having a better understanding of CSS animations.
 ## Author
 
 - Fathlislam Hind
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+
