@@ -47,7 +47,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://hentiofyle.github.io/FathlislamHind_3_14022022)
+- Live Site URL: [https://hentiofyle.github.io/FathlislamHind_3_14022022/]
 
 ## My process
 
